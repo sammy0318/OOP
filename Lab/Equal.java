@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class Equal {
     public static void main(String[] args) {
-        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         int a, b;
         System.out.print("Enter first number: ");
