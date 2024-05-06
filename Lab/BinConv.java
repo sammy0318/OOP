@@ -6,11 +6,15 @@ class BinConv {
         System.out.print("Enter the number in decimal: ");
         int num = sc.nextInt();
         String res = "";
-         
-        while (num > 0) {
-            res += num % 2;
-            num /= 2;
+        
+        if (num == 0) {
+            res = "0";
+        } else {
+            while (num > 0) {
+                res += num % 2;
+                num /= 2;
 
+            }
         }
 
         System.out.println("The number in binary is: " + res);
