@@ -1,20 +1,15 @@
-class Mul
-{
+class Mul {
     int x=10;
-    
 }
 
-class B extends Mul
-{
+class B extends Mul {
     int y=33;
 }
 
-class C extends B
-{
+class C extends B {
     int z=89;
 }
-class MultipleInheritance
-{
+class MultipleInheritance {
     public static void main(String[] args) {
         Mul a=new Mul();
         B b=new B();
@@ -23,8 +18,5 @@ class MultipleInheritance
         System.out.println(c.x+" "+c.y+" "+c.z);
         System.out.println(b.x+" "+b.y);
         System.out.println(a.x);
-
     }
 }
-
-
