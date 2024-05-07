@@ -26,7 +26,7 @@ This is method 3 of class B](image-6.png)<br><br>
 200](image-7.png)<br><br>
 8. Interface
 9. User Defined Package<br>
-9
+9<br>
 Printed from a Package<br><br>
 10. Encapsulation<br>
 ![Initial balance: 10000
