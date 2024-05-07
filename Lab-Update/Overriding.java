@@ -1,4 +1,4 @@
-class A {
+class A1 {
     public void method1() {
         System.out.println("This is method 1 of class A");
     }
@@ -7,7 +7,7 @@ class A {
     }
 }
 
-class B extends A {
+class B1 extends A1 {
     @Override
     public void method2() {
         System.out.println("This is method 2 of class B");
@@ -19,7 +19,7 @@ class B extends A {
 
 public class Overriding {
     public static void main(String[] args) {
-        B b = new B();
+        B1 b = new B1();
         b.method1();
         b.method2();
         b.method3();

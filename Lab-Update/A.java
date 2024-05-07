@@ -9,7 +9,7 @@ public class A {
     }
     void m()
     {
-        System.out.println("yo yo honey singh");
+        System.out.println("Printed from a Package");
 
     }
     

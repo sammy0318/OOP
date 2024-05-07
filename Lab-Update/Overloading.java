@@ -14,8 +14,8 @@ public class Overloading {
         System.out.println("You have a unique name :-)");
     }
     public static void main(String[] args) {
-        String a = "Vishal";
-        String b = "Venkatesh";
+        String a = "Friend";
+        String b = "Brother";
         greet();
         greet(a);
         greet(a,b);
