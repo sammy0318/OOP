@@ -1,5 +1,3 @@
-package OOPS;
-
 class Mul {
     int x = 10;
 }
